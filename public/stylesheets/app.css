@@ -1,7 +1,23 @@
 body {
   font-size: 12px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #404040;
+  color: greyish;
   text-align: center;
   background: #fff;
+}
+#wrapper {
+  width: 920px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-family: droid-serif-1, droid-serif-2, Georgia, serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 10px;
 }
