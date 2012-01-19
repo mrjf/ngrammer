@@ -19,6 +19,8 @@ getUrl = (URL, callback) ->
 
 loadDocument = (filename, callback) ->
 
+  filename = process.cwd() + '/public/' + filename
+
   fs.readFile filename, 'utf-8', (err, data) ->
     callback data
 
