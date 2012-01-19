@@ -1,0 +1,10 @@
+{
+  "name": "ngrammer",
+  "version": "1.0.1",
+  "dependencies": {
+    "express": "2.5.2",
+    "coffee-script": "1.2.0",
+    "coffeekup": "0.3.1",
+    "stylus": "0.20.0"    
+  }
+}

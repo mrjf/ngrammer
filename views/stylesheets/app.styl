@@ -1,0 +1,168 @@
+.right_label
+    text-align right
+
+.left_label
+   text-align left
+
+.slider
+    width 200px
+
+big-size = 30px
+mid-size = 16px
+text-size = 12px
+serif-family = droid-serif-1, droid-serif-2, Georgia, serif
+sans-serif-family = ff-meta-web-pro-1,ff-meta-web-pro-2,"Helvetica Neue",Helvetica,Arial,sans-serif
+greyish = #404040
+warn = #FF4F00
+bluish = #030038
+lightbluish = #0066CC
+
+colBorder(color)
+  border-left 1px dotted color
+  border-right 1px dotted color
+
+
+body
+  font-size text-size
+  font-family sans-serif-family
+  color greyish
+  text-align center
+  background #fff
+
+#wrapper
+  width 920px
+  text-align left
+  margin-left auto
+  margin-right auto
+  background #fff
+  padding 20px
+  margin-bottom 30px
+
+h3
+  font-family serif-family
+  text-align center
+  font-weight normal
+  font-size mid-size
+
+#relevantCtn h3
+  color green
+
+#unclassifiedCtn h3
+  color orange
+
+#irrelevantCtn h3
+  color #CC0000
+
+#queryArticle, #neighbors
+  font-size text-size
+
+.title
+  font-family serif-family
+  margin-bottom 4px
+  color bluish
+
+#neighbors .title
+  font-size mid-size
+
+#queryArticle .title
+  font-size big-size
+  text-align center
+
+.reader .title
+  font-size big-size
+
+.reader .full
+  -moz-column-count 2
+  -webkit-column-count 2
+  column-count 2
+  column-gap 50px
+
+.teaser
+  margin-bottom 6px
+
+#queryArticle .full
+  font-size mid-size
+
+.neighborhoodCtn
+  width 32%
+  float left
+  margin 0
+
+.neighborhood
+  list-style-type none
+  margin 0
+  padding 0
+  width 100%
+
+.neighborhood li
+  margin 5px 5px 10px 5px
+  padding 5px
+  background #fff
+
+li.current
+  background-color #FFEACF
+
+#relevant
+  list-style-type decimal
+
+#unclassified
+  colBorder(grey)
+
+#relevantCtn
+  // colBorder(green)
+
+#irrelevantCtn
+  // colBorder(red)
+
+.neighborhood .sortHighlight
+  background-color #E8E8E8
+  height 10px
+  border 1px dotted black
+
+#shadow
+  display none
+  background-color black
+  position absolute
+  left 0
+  top 0
+  width 100%
+  z-index 100
+  opacity .7
+
+.reader
+  display none
+  background-color white
+  position absolute
+  top 30px
+  left 150px
+  right 150px
+  z-index 101
+  border 2px solid black
+  padding 15px
+  font-size mid-size
+  margin-bottom 30px
+
+.reader p
+  line-height 20px
+
+li.crazy
+  background-color warn
+
+#nav
+  border-bottom 1px dashed black
+  padding-bottom 10px
+
+span#user, span#campaign
+  margin-right 100px
+  color lightbluish
+
+#next
+  margin-right 100px
+
+#status
+  margin-right 100px
+
+#nav a
+  color bluish
+
+
